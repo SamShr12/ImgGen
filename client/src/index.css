@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.text-center{
+text-align: center;
+}
+
+.header{
+  font-size: 30px;
+  font-weight: 900;
+  margin: 20px 0 20px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea{
+  width: 50%;
+  height: 50px;
+}
+
+.btn-submit{
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px 15px 10px 15px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+.Generated-image{
+  margin-top: 50px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.btn-save{
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  background: #47baef;
+}
+
+.image-generated{
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.btn-save:hover{
+  background: #225e79;
+}
